@@ -26,10 +26,10 @@ app.post("/", function (req, res) {
     ]
   };
   const jsonData = JSON.stringify(data);
-  const url = "https://us13.api.mailchimp.com/3.0/lists/232ae3ba81";
+  const url = ""; //ur link
   const options = {
     method:"POST",
-    auth : "vishakha:26d0ce677e69d7958f74aea42c56ce27-us13"
+    auth : "" //name:key
   };
   const request = https.request(url, options, function(response){
 
